@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bittmanová Lucie | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gradient-to-br from-black to-purple-600 text-gray-200 min-h-screen font-sans"
+  >
+    <!-- Navigation -->
+    <header class="p-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Lucie</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-red-400">About</a>
+        <a href="#projects" class="hover:text-red-400">Projects</a>
+        <a href="#contact" class="hover:text-red-400">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20">
+      <h2 class="text-4xl font-extrabold mb-4">
+        Zdravíčko! Mé jméno je Lucie Bittmanová.
+        <img
+          src="char.png"
+          alt="character"
+          class="absolute top-1/2 -translate-y-1/2 right-0 w-96 h-auto z-0"
+        />
+      </h2>
+      <p class="text-lg max-w-xl mx-auto">
+        Jsem programátorka, která se ráda vyžívá v konstrukci webových aplikací.
+      </p>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="px-6 py-10 max-w-3xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">O mně</h3>
+      <p>
+        Jsem junior programátor, vybavený IT kurzem, ovšem většinu svých
+        znalostí jsem se naučila vesměs sama. K programování jsem se dostala
+        klikatou a dlouhou cestou, vzhledem k tomu, že jsem z vesnice, kde je
+        ještě IT neznámá věc a pro ženu nemyslitelná. Ale táhlo mě tak dlouho a
+        silně, až jsem se na něj přeci jen dala. Po chvíli seznamování se s
+        Pythonem jsem přesedlala na JavaScript, u kterého jsem zatím zůstala,
+        ačkoliv mám v plánu se učit jazyky další. Ovládám HTML, CSS, Tailwind,
+        základy Astra, Reactu a SQLite. Momentálně se snažím zdokonalit práci s
+        Reactem a vrhnout se na Docker a TypeScript. Jako asi každý začátečník,
+        jsem si prošla svými prvními projekty, některé jen tak pro zábavu,
+        některé pro naučení se novým věcem. Momentálně mám však svůj hlavní
+        projekt, který je, dost možná, na celý můj život, každopádně je to
+        spojení věcí, které mě v životě baví nejvíce - lidské tělo a
+        programování. Zároveň ho používám ke zdokonalení svých schopností. Mým
+        momentálním cílem je: Získat práci, která mi umožní získat ještě více
+        zkušeností a ještě o kousek prohloubit mou lásku ke kódování, ačkoliv je
+        asi jasné, že u programování funguje vztah nenávistné lásky. I přes to
+        se ho nehodlám vzdát a cítím, že je to to, co mě bude naplňovat.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="px-6 py-10 max-w-5xl mx-auto">
+      <h3 class="text-2xl font-bold mb-6">Projekty</h3>
+    
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white/10 p-4 rounded-xl shadow-md hover:scale-[1.03] transition flex flex-col w-full h-48">
+          <div class="h-full grid grid-rows-[min-content_1fr_min-content]">
+            <div>
+              <h4 class="text-xl font-semibold">Hodiny</h4>
+            </div>
+            <div>
+              <p class="text-sm mt-2">
+                Rychlý projekt, hodiny s možností tmavého a světlého módu.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://github.com/Maucnik/clock"
+                class="text-red-300 inline-block hover:underline"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bg-white/10 p-4 rounded-xl shadow-md hover:scale-[1.03] transition flex flex-col w-full h-48">
+          <div class="h-full grid grid-rows-[min-content_1fr_min-content]">
+            <div>
+              <h4 class="text-xl font-semibold">Guess the word</h4>
+            </div>
+            <div>
+              <p class="text-sm mt-2">
+                Hra "Uhodni slovo", taktéž menší projekt.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://github.com/Maucnik/Game"
+                class="text-red-300 inline-block hover:underline"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bg-white/10 p-4 rounded-xl shadow-md hover:scale-[1.03] transition flex flex-col w-full h-48">
+          <div class="h-full grid grid-rows-[min-content_1fr_min-content]">
+            <div>
+              <h4 class="text-xl font-semibold">To Do list</h4>
+            </div>
+            <div>
+              <p class="text-sm mt-2">
+                Rychlý a jednoduchý projekt, který jsem udělala na zkoušku.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://github.com/Maucnik/ToDo"
+                class="text-red-300 inline-block hover:underline"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bg-white/10 p-4 rounded-xl shadow-md hover:scale-[1.03] transition flex flex-col w-full h-48">
+          <div class="h-full grid grid-rows-[min-content_1fr_min-content]">
+            <div>
+              <h4 class="text-xl font-semibold">Kalkulačka</h4>
+            </div>
+            <div>
+              <p class="text-sm mt-2">
+                Kalkulačka se základními operacemi, projekt není kompletně
+                vychytaný, nebyl můj primární.
+              </p>
+            </div>
+            <div>
+              <a
+                href="https://github.com/Maucnik/Calculator"
+                class="text-red-300 inline-block hover:underline"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bg-white/10 p-4 rounded-xl shadow-md hover:scale-[1.03] transition flex flex-col w-full h-48">
+          <div class="h-full grid grid-rows-[min-content_1fr_min-content]">
+            <div>
+              <h4 class="text-xl font-semibold">MedPro</h4>
+            </div>
+            <div>
+              <p class="text-sm mt-2">
+                Hlavní projekt, zatím mohu ukázat pouze pár výňatků.
+              </p>
+            </div>
+            <div>
+              <a
+                href="overview.html"
+                class="text-red-300 inline-block hover:underline"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="px-6 py-10 text-center">
+      <h3 class="text-2xl font-bold mb-4">Kontakt</h3>
+      <p>
+        Email:
+        <a
+          href="mailto:lynxlyria@gmail.com"
+          class="text-red-300 hover:underline"
+          >E-mail</a
+        >
+      </p>
+      <p>GitHub: <a href="https://github.com/Maucnik" class="text-red-300 hover:underline">GitHub</a></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
